@@ -27,8 +27,7 @@ local myLedgeBorder = LedgeBorder.new(plr)
 
 ```lua
 
-local myLedgeBorder = LedgeBorder.new(game.Players.LocalPlayer)
-myLedgeBorder:set(false)
+--myLedgeBorder:set(false) --make sure this is set to false
 local isCrouching = false
 
 game.UserInputService.InputBegan:Connect(function(input, gpe)
@@ -46,23 +45,14 @@ end)
 
 
 ```lua
-local RunService = game:GetService("RunService")
-
-local LedgeBorder = require(game.ReplicatedStorage.LedgeBorder)
-local myLedgeBorder = LedgeBorder.new(game.Players.LocalPlayer)
-
-
 RunService.RenderStepped:Connect(function(deltaTime: number) 
-	myLedgeBorder:update(deltaTime)
+	myLedgeBorder:update()
 end)
 ```
 
 
 
 ```lua
-local LedgeBorder = require(game.ReplicatedStorage.LedgeBorder)
-local myLedgeBorder = LedgeBorder.new(game.Players.LocalPlayer)
-
 while true do
 	myLedgeBorder:update()
 	task.wait()
