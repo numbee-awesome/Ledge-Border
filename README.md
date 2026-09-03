@@ -14,11 +14,14 @@ https://github.com/user-attachments/assets/16c90000-3250-4334-98d5-bc040e50f89a
  
   creates new oop class requiring Player instance, recommended to do this every time local character spawns in with a local script under StarterCharacterScripts
 
+  *NOTE: LedgeBorder.isActive is set to true, so call LedgeBorder:set(false) if you need it initially off
+
 ```lua
 local LedgeBorder = require(game.ReplicatedStorage.LedgeBorder)
 local plr = game.Players.LocalPlayer
 
 local myLedgeBorder = LedgeBorder.new(plr)
+--myLedgeBorder:set(false)
 ```
 
 ### LedgeBorder:set(bool: boolean)
@@ -27,8 +30,8 @@ local myLedgeBorder = LedgeBorder.new(plr)
 
 ```lua
 
---myLedgeBorder:set(false) --make sure this is set to false
 local isCrouching = false
+--myLedgeBorder:set(false) --make sure this is set to false
 
 game.UserInputService.InputBegan:Connect(function(input, gpe)
 	if input.KeyCode == Enum.KeyCode.C then
