@@ -6,7 +6,7 @@ This is similar to stuff like crouching in Minecraft where it doesn't let you fa
 
 https://github.com/user-attachments/assets/16c90000-3250-4334-98d5-bc040e50f89a
 
-*animations not included
+*animations or crouching function not included
 
 # Methods:
 
