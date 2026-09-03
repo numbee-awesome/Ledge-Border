@@ -6,7 +6,7 @@ This is similar to stuff like crouching in Minecraft where it doesn't let you fa
 
 https://i.imgur.com/N5031NW.mp4
 
-<video src="https://i.imgur.com/N5031NW.mp4" width="100%" controls></video>
+
 
 # Methods:
 
