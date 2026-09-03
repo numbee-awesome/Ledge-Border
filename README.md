@@ -60,8 +60,8 @@ local LedgeBorder = require(game.ReplicatedStorage.LedgeBorder)
 local myLedgeBorder = LedgeBorder.new(game.Players.LocalPlayer)
 
 while true do
- myLedgeBorder:update()
- task.wait()
+	myLedgeBorder:update()
+	task.wait()
 end
 ```
   
