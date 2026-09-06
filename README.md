@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/41fd238c-1458-43e6-92ba-8c955cf81b13
  
   creates new oop class requiring Player instance, recommended to do this every time local character spawns in with a local script under StarterCharacterScripts
 
-  *NOTE: LedgeBorder.isActive is set to true, so call LedgeBorder:set(false) if you need it initially off
+  *NOTE: LedgeBorder.isActive is set to true, so call LedgeBorder:set(false) if you need it initially off (or change it in the module)
 
 ```lua
 local LedgeBorder = require(game.ReplicatedStorage.LedgeBorder)
