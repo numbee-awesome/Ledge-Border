@@ -5,6 +5,8 @@ Create conditional ledge borders around a player
 This is similar to stuff like crouching in Minecraft where it doesn't let you fall off the edge
 
 
+https://github.com/user-attachments/assets/d7a52703-9802-43d5-93ba-f9364dab4b3f
+
 https://github.com/user-attachments/assets/a4832df4-b81a-49ab-9b66-e2469f4cee5e
 
 https://github.com/user-attachments/assets/41fd238c-1458-43e6-92ba-8c955cf81b13
